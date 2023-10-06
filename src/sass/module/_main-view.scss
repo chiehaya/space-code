@@ -1,0 +1,16 @@
+@use "global" as *; 
+
+.main-view {
+    height: (730 / 1440) * 100vw;
+    background-image: url(../../../dist/assets/images/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: (200 / 1440) * 100vw;
+}
+
+.main-view__title {
+    width: (640 / 1440) * 100vw;
+}
+

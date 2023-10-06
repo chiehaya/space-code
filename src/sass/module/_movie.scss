@@ -1,0 +1,30 @@
+@use "global" as *;
+
+.movie {
+
+}
+
+.movie__img {
+    position: relative;
+    width: rem(550);
+    margin: auto;
+}
+
+.movie__img::before {
+    content: "";
+    display: block;
+    padding-top: 61%;
+}
+
+.movie__img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
