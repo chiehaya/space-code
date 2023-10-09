@@ -1,0 +1,17 @@
+@use "global" as *;
+
+.footer {
+    color: $text-color;
+    background-image: url(../../assets/images/common/footer.png);
+    height: calc(128 / 1440) * 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.footer__copyright {
+    text-align: center;
+    font-size: rem(12);
+    padding-top: calc(68.6 / 1440) * 100vw;
+}
+

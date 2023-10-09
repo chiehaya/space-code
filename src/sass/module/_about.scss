@@ -7,8 +7,6 @@
     text-align: center;
     height: rem(121);
     line-height: 1;
-    // display: flex;
-    // justify-content: center;
 }
 
 .about__title span {
@@ -66,6 +64,35 @@
 .about__title span:nth-child(10){
     top: rem(10);
     transform: rotate(12deg);
+    line-height: (30 / 18);
 }
+
+.about__inner {
+    max-width: rem(1090);
+    margin: auto;
+}
+
+.about__items {
+}
+
+.about__item {
+    margin-top: rem(121);
+}
+
+.about__item:nth-child(odd){
+    margin-left: auto;
+}
+
+.about__noza-img {
+    max-width: rem(980);
+    width: 100%;
+    margin-inline: auto;
+    margin-top: rem(121);
+}
+
+
+
+
+
 
 

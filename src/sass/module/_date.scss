@@ -1,0 +1,15 @@
+@use "global" as *;
+
+.date {
+    max-width: rem(1440);
+    width: 100%;
+    margin-inline: auto;
+}
+
+.date__items {
+    display: flex;
+}
+
+.date__gender,.date__age{
+    width: 50%;
+}
